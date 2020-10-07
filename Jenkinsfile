@@ -2,7 +2,7 @@ pipeline
 {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "alikemal/deployJava"
+        DOCKER_IMAGE_NAME = "alikemal/deployjava"
     }
     tools 
     {
