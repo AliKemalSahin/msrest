@@ -2,7 +2,7 @@ pipeline
 {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "alikemal/deneme"
+        DOCKER_IMAGE_NAME = "AliKemalSahin/msrest"
     }
     tools 
     {
