@@ -32,6 +32,7 @@ pipeline
                 }
             }
         }
+        /*
         stage('Push Nexus Image') 
         {
             steps 
@@ -45,6 +46,9 @@ pipeline
                 }
             }
         }
+         */
         
     }
+    
 }
+
