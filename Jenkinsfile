@@ -50,12 +50,7 @@ pipeline
                 branch 'master'
             }
             steps {
-                input 'Deploy to Production?'
-                milestone(1)
-                kubernetesDeploy(
-                    kubeconfigId: 'kubeconfig',
-                    configs: 'kuber.yaml',
-                    enableConfigSubstitution: true
+                sh 'kubectl apply -f kuber.yaml'
                 )
             }
         }
