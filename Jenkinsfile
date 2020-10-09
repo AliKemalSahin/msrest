@@ -51,7 +51,7 @@ pipeline
             }
             steps {
                 sh 'kubectl apply -f kuber.yaml'
-                )
+                
             }
         }
         
