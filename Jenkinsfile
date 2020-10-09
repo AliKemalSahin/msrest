@@ -50,6 +50,7 @@ pipeline
                 branch 'master'
             }
             steps {
+                sh 'chmod 777 /var/run/docker.sock'
                 sh 'kubectl apply -f kuber.yaml'
                 
             }
